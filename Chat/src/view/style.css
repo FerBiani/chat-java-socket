@@ -1,0 +1,43 @@
+#AnchorPane{
+    -fx-background-color: #008B8B;
+}
+
+#campoMensagens, #campoMensagens:focused, #campoMensagens:selected{
+    -fx-background-color: white;
+}
+
+#campoLista, #campoLista:focused, #campoLista:selected{
+    -fx-background-color: white;
+}
+
+#areaDireita{
+    -fx-background-color: #2F4F4F;
+}
+
+.list-cell .label {
+  display: inline-block;
+  -fx-min-width: 50px;
+  -fx-background-color: #E0FFFF;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 20px;
+  -fx-border-width: 2px;
+  -fx-border-style: solid;
+  -fx-border-color: #008B8B;
+  -fx-text-fill: #000;
+  -fx-padding: 3 8 3 8;
+}
+
+.list-cell:empty .label {
+  -fx-background-color: transparent;
+  -fx-border-width: 0px;
+}
+
+/*.list-view, .list-view:focused, .list-view:selected {
+    -fx-control-inner-background: transparent;
+    -fx-control-inner-background-alt: -fx-control-inner-background;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-fit-to-width: true;
+    -fx-selection-bar: transparent;
+    -fx-selection-bar-non-focused: transparent;
+}*/
